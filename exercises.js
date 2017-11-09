@@ -35,6 +35,6 @@ function toCelcius (num1, num2, num3){
 
 
 function toCelsius(Fahrenheit){
-    return (20*32)/1.8;
+    return (20*32)/1.8 ++5;
 }
 console.log(Fahrenheit);
