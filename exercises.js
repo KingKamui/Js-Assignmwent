@@ -14,11 +14,11 @@ Num2 = 32
 Num3 = 1.8
 */
 
-function shoeSize(inches) {
-    convert(inches);
-    return(centimeters);
+function toCelcius(Fahreheit) {
+    convert(Fahreheit);
+    return(Celcius);
 }
-console.log(shoeSize);
+console.log(toCelcius);
 
 var intTemp = 20
 var maxTemp = 120
@@ -35,6 +35,6 @@ function toCelcius (num1, num2, num3){
 
 
 function toCelsius(Fahrenheit){
-    return (20*32)/1.8 ++5;
+    return (20*32)/1.8;
 }
 console.log(Fahrenheit);
