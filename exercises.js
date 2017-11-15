@@ -11,6 +11,7 @@ Num2 = 32
 Num3 = 1.8
 */
 
+/*
 function toCelsius(Fahrenheit) {
     convert(Celsius);
     return(Fahrenheit);
@@ -24,6 +25,7 @@ var num3 = 1.8
 function toCelsius (num1, num2, num3){
      console.log((num1*num2)/num3);
 }
+*/
 
 var toCelsius =();
 
