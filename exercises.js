@@ -25,7 +25,7 @@ function toCelsius (num1, num2, num3){
      console.log((num1*num2)/num3);
 }
 
-var toCelsius = ();
+var toCelsius = [];
 
 function toCelsius(F){
     return (F+32)/1.8;
