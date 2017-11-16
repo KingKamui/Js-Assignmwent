@@ -16,11 +16,10 @@ use an increment value of 5.
 The table will have two columns, one for Fahrenheit and one for those same temperatures converted to Celsius.
      <script>
      
-var toCelsius = ();
-var F =;
-
-function toCelsius(F){
-    return (F+32)/1.8;
+var toCelsius = [];
+for(F=20;F<=120;F+=5) {
+  Celsius=(F-32)*(5/9);
+  toCelsius[F]=Celsius;
 }
 console.log(toCelsius);
      </script>
@@ -36,7 +35,7 @@ console.log(toCelsius);
     <td>20</td>
     <td>
         <script>
-                   document.write(toCelsius(20))
+                   document.write(toCelsius[20])
                     </script>
     </td> 
   </tr>
@@ -45,7 +44,7 @@ console.log(toCelsius);
     <td>25</td>
     <td>
                          <script>
-                   document.write(toCelsius(25))
+                   document.write(toCelsius[25])
                     </script>
              </td>
   </tr>
@@ -54,7 +53,7 @@ console.log(toCelsius);
     <td>30</td>
     <td> 
        <script>
-                   document.write(toCelsius(30))
+                   document.write(toCelsius[30])
                     </script> 
     </td>
   </tr>
@@ -63,7 +62,7 @@ console.log(toCelsius);
     <td>35</td>
     <td>
       <script>
-                   document.write(toCelsius(35))
+                   document.write(toCelsius[35])
                     </script> 
     </td>
   </tr>
@@ -72,7 +71,7 @@ console.log(toCelsius);
     <td>40</td>
     <td>
     <script>
-                   document.write(toCelsius(40))
+                   document.write(toCelsius[40])
                     </script> 
     </td> 
   </tr>
@@ -81,7 +80,7 @@ console.log(toCelsius);
     <td>45</td>
     <td>
     <script>
-                   document.write(toCelsius(45))
+                   document.write(toCelsius[45])
                     </script> 
     </td>
   </tr>
@@ -90,7 +89,7 @@ console.log(toCelsius);
     <td>50</td>
     <td>
     <script>
-                   document.write(toCelsius(50))
+                   document.write(toCelsius[50])
                     </script> 
     </td>
   </tr>
@@ -99,7 +98,7 @@ console.log(toCelsius);
     <td>55</td>
     <td>
     <script>
-                   document.write(toCelsius(55))
+                   document.write(toCelsius[55])
                     </script> 
     </td>
   </tr>
@@ -108,7 +107,7 @@ console.log(toCelsius);
     <td>60</td>
     <td>
     <script>
-                   document.write(toCelsius(60))
+                   document.write(toCelsius[60])
                     </script> 
     </td> 
   </tr>
@@ -117,7 +116,7 @@ console.log(toCelsius);
     <td>65</td>
     <td>
     <script>
-                   document.write(toCelsius(65))
+                   document.write(toCelsius[65])
                     </script> 
     </td>
   </tr>
@@ -126,7 +125,7 @@ console.log(toCelsius);
     <td>70</td>
     <td>
     <script>
-                   document.write(toCelsius(70))
+                   document.write(toCelsius[70])
                     </script> 
     </td>
   </tr>
@@ -135,7 +134,7 @@ console.log(toCelsius);
     <td>75</td>
     <td>
     <script>
-                   document.write(toCelsius(75))
+                   document.write(toCelsius[75])
                     </script> 
     </td>
   </tr>
@@ -144,7 +143,7 @@ console.log(toCelsius);
     <td>80</td>
     <td>
     <script>
-                   document.write(toCelsius(80))
+                   document.write(toCelsius[80])
                     </script> 
     </td> 
   </tr>
@@ -153,7 +152,7 @@ console.log(toCelsius);
     <td>85</td>
     <td>
     <script>
-                   document.write(toCelsius(85))
+                   document.write(toCelsius[85])
                     </script> 
     </td>
   </tr>
@@ -162,7 +161,7 @@ console.log(toCelsius);
     <td>90</td>
     <td>
     <script>
-                   document.write(toCelsius(90))
+                   document.write(toCelsius[90])
                     </script> 
     </td>
   </tr>
@@ -170,7 +169,7 @@ console.log(toCelsius);
     <td>95</td>
     <td>
     <script>
-                   document.write(toCelsius(95))
+                   document.write(toCelsius[95])
                     </script> 
     </td>
   </tr>
@@ -179,7 +178,7 @@ console.log(toCelsius);
     <td>100</td>
     <td>
     <script>
-                   document.write(toCelsius(100))
+                   document.write(toCelsius[100])
                     </script> 
     </td>
   </tr>
@@ -188,7 +187,7 @@ console.log(toCelsius);
     <td>105</td>
     <td>
     <script>
-                   document.write(toCelsius(105))
+                   document.write(toCelsius[105])
                     </script> 
     </td>
   </tr>
@@ -197,7 +196,7 @@ console.log(toCelsius);
     <td>110</td>
     <td>
     <script>
-                   document.write(toCelsius(110))
+                   document.write(toCelsius[110])
                     </script> 
   </td>
   </tr>
@@ -206,7 +205,7 @@ console.log(toCelsius);
     <td>115</td>
     <td>
     <script>
-                   document.write(toCelsius(115))
+                   document.write(toCelsius[115])
                     </script> 
     </td>
   </tr>
@@ -215,7 +214,7 @@ console.log(toCelsius);
     <td>120</td>
     <td>
     <script>
-                   document.write(toCelsius(120))
+                   document.write(toCelsius[120])
                     </script> 
     </td>
   </tr>
